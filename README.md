@@ -1,0 +1,1 @@
+This is my Google homepage made purely from html and css.  No javascript included.
