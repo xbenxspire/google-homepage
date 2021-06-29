@@ -1,4 +1,4 @@
-*{
+.{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -19,10 +19,10 @@ nav{
 }
 nav a {
     font size: 13px;
-    display: incline-block;
+    display: inline-block;
     line-height: 24px;
     font-weight: 400;
-    color: rgba(0,0,0, 0.87);
+    color: rgb(0,0,0, 0.87);
     cursor: pointer;
     padding: 5px 6.7px;
 }
@@ -85,7 +85,7 @@ nav button {
                 0 0 4px rgba(0, 0, 0, 0.05),
                 0 0 5px rgba(0, 0, 0, 0.05),
                 0 0 4px rgba(0, 0, 0, 0.05),
-                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05)
 }
 .s-box .search-icon {
     width: 20px;
@@ -106,7 +106,7 @@ nav button {
     color: #666;
     font-size: 14px;
     border-radius: 4px;
-    display: incline-block;
+    display: inline-block;
     margin-right: 10px;
     margin-top: 28px;
     outline: none;
